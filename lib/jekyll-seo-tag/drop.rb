@@ -160,8 +160,8 @@ module Jekyll
         end
       end
 
-      def page_lang
-        @page_lang ||= page["lang"] || site["lang"] || "en_US"
+      def page_locale
+        @page_locale ||= page["locale"] || site["locale"] || "de_DE"
       end
 
       def canonical_url

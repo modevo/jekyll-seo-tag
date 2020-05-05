@@ -5,6 +5,6 @@ module Liquid; class Tag; end; end
 
 module Jekyll
   class SeoTag < Liquid::Tag
-    VERSION = "2.6.2"
+    VERSION = "2.6.3"
   end
 end
